@@ -1,0 +1,940 @@
+@media screen and (max-width: 480px){
+    .section1{
+        width: 100%;
+        height: 650px;
+        background-image: url(./assets/work-desk__dustin-lee.jpg);
+    }
+    .notification{
+        position: fixed;
+        width: available;
+        z-index: 1;
+        height: 150px;
+        background-color:  #e5e5e5;
+        margin-top: -15px;
+    }
+    .policy{
+        padding:20px;
+        width: 320px;
+        font-size: 13px;
+    }
+    .slide{
+        animation: slide 1s ease-in-out;
+    }
+    a{
+        color: #007bc1;
+    }
+    .btn1{
+        position: absolute;
+        margin-left: 20px;
+        height: 30px;
+        top: 85px;
+        background-color: #007bc1;
+        color: #ffff;
+    }
+    .logo{
+        width: 50px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .headline{
+        padding: 20px;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 50px;
+        color: #ffff;
+    }
+    .consult{
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: -58px;
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .contact{
+        width: 247px;
+        padding: 10px;
+        font-size: 17px;
+        text-align:justify;
+        margin-left: 50px;
+        margin-top: -45px;
+        color: #ffff;
+    }
+    .btn2{
+        margin-left: 100px;
+        height: 50px;
+        border: 15px solid #007bc1;
+        outline: 2px solid #ffff;
+        outline-offset: -10px;
+        background-color: #007bc1;
+        color: #ffff;
+    }
+    .section2{
+        background-color: #e5e5e5;
+        margin-top: -20px;
+        width: 100%;
+        height: 1950px;
+    }
+    .section2-header{
+        padding: 30px;
+        text-align: center;
+    }
+    .work-target{
+       padding:35px;
+       margin-top: -80px;
+       text-align: center;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+    .flex-item{
+        padding:15px;
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 90%;
+        height: 200px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.1), 0 7px 20px 0 rgba(0,0,0,0.1);
+        border: 2px solid lightgray;
+        
+    }
+    .consult-text{
+        margin-top: 10px;
+        margin-left: 10px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-comments{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .co-create{
+        opacity: 0.9;
+        padding: 10px;
+        margin-top: -20px;
+        text-align: justify;
+    }
+    .design-text{
+        margin-top: 30px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-paintbrush{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .policymaker{
+        opacity: 0.9;
+        padding: 20px;
+        margin-top: -25px;
+        text-align: justify;
+    }
+    .develop-text{
+        margin-top: 30px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-layer-group{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .revolutionary{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .marketing-text{
+        margin-top: 30px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-bullhorn{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .peaceful{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .manage-text{
+        margin-top: 30px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-list-check{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .change-makers{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .evolve-text{
+        margin-top: 30px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-chart-column{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 230px;
+        margin-top: -40px;
+    }
+    .activate{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .section3{
+        background-color: #050A30;
+        height: 100px;
+        width: 100%;
+    }
+    .copyright{
+        position: absolute;
+        color: #ffff;
+        padding: 20px;
+        margin-left: 10px;
+    }
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        bottom: 0;
+        overflow: auto;
+        background-color: rgba(13, 152, 233, 0.9);
+        animation: slide_up 1.4s ease;
+    }
+    .modal::backdrop {
+        opacity: 0;
+    }
+    .modal[open]{
+        animation: slide_up 1.4s forwards;
+    }
+    .modal[open]::backdrop{
+        animation: slide_up 1.4s forwards;
+        opacity: 1;
+    }
+    .modal[closing]{
+        display: block;
+        animation: slide_down 1.4s forwards; 
+    }
+    .modal[closing]::backdrop{
+        animation: slide_down 1.4s forwards; 
+    }
+    .modal-content{
+        color: #ffff;
+        margin:  auto;
+        padding: 20px;
+        width: 500px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+    }
+    .modal-title{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .articles{
+        width: 60%;
+        margin-top: -40px;
+        margin-left: -20px;
+        text-align: justify;
+        padding: 30px;
+    }
+    .modal-form{
+        margin-top: -30px;
+    }
+    .modal-input{
+        width: 200px;
+        margin-left: 30px;
+    }
+    .subBtn{
+        background-color:  #ff8000;
+        color: #ffff;
+        border: none;
+    }
+    .closeBtn{
+        color: #ffff;
+        margin-left: 310px;
+        font-size: 30px;
+    }
+    .closeBtn:hover, .closeBtn:focus{
+        color: #000000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 960px){
+    .section1{
+        width: 100%;
+        height: 500px;
+        background-image: url(./assets/work-desk__dustin-lee.jpg);
+    }
+    .notification{
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        height: 130px;
+        background-color:  #e5e5e5;
+        margin-top: -15px;
+    }
+    .policy{
+        padding:30px;
+        width: 590px;
+        margin-left: 80px;
+    }
+    .slide{
+        animation: slide 1s ease-in-out;
+    }
+    a{
+        color: #007bc1;
+    }
+    .btn1{
+        position: absolute;
+        margin-left: 110px;
+        height: 30px;
+        top: 85px;
+        background-color: #007bc1;
+        color: #ffff;
+    }
+    .logo{
+        width: 50px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .headline{
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 40px;
+        color: #ffff;
+    }
+    .consult{
+        padding: 20px;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -58px;
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .contact{
+        width: 397px;
+        padding: 10px;
+        font-size: 17px;
+        text-align:center;
+        margin-left: 200px;
+        margin-top: -45px;
+        color: #ffff;
+    }
+    .btn2{
+        margin-left: 330px;
+        height: 50px;
+        border: 15px solid #007bc1;
+        outline: 2px solid #ffff;
+        outline-offset: -10px;
+
+        background-color: #007bc1;
+        color: #ffff;
+    } 
+    .section2{
+        background-color: #e5e5e5;
+        margin-top: -20px;
+        width: 100%;
+        height: 1050px;
+    }
+    .section2-header{
+        padding: 45px;
+        text-align: center;
+    }
+    .work-target{
+        width:67%;
+        padding:35px;
+        margin-top: -90px;
+        text-align: center;
+        margin-left: 130px;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+    .flex-item{
+        padding: 20px;
+        margin-left: 15px;
+        margin-top: 15px;
+        width: 40%;
+        height: 200px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.1), 0 7px 20px 0 rgba(0,0,0,0.1);
+        border: 2px solid lightgray;
+    }
+    .consult-text{
+        margin-top: 10px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-comments{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .co-create{
+        opacity: 0.9;
+        padding: 10px;
+        margin-top: -20px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .design-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-paintbrush{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .policymaker{
+        opacity: 0.9;
+        padding: 10px;
+        margin-top: -20px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .develop-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-layer-group{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .revolutionary{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .marketing-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-bullhorn{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .peaceful{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .manage-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-list-check{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .change-makers{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .evolve-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-chart-column{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .activate{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .section3{
+        background-color: #050A30;
+        height: 100px;
+        width: 100%;
+    }
+    .fa-copyright{
+        margin-left: 200px;
+        margin-top: 45px;
+        color: #fff;
+        opacity: 0.3;
+    }
+    .copyright{
+        position: absolute;
+        color: #ffff;
+        padding: 20px;
+        margin-left: 185px;
+    }
+    .copyright{
+        position: absolute;
+        color: #ffff;
+        padding: 20px;
+        margin-left: 315px;
+    }
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        bottom: 0;
+        overflow: auto;
+        background-color: rgba(13, 152, 233, 0.5);
+    }
+    .modal::backdrop {
+        opacity: 0;
+    }
+    .modal[open]{
+        animation: slide_up 1.4s forwards;
+    }
+    .modal[open]::backdrop{
+        animation: slide_up 1.4s forwards;
+        opacity: 1;
+    }
+    .modal[closing]{
+        display: block;
+        animation: slide_down 1.4s forwards; 
+    }
+    .modal[closing]::backdrop{
+        animation: slide_down 1.4s forwards; 
+    }
+    .modal-content{
+        color: #ffff;
+        margin:  auto;
+        padding: 20px;
+        width: 500px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+        animation: slide_up 1.4s ease;
+    }
+    .modal-title{
+        margin-left: 27px;
+    }
+    .articles{
+        margin-top: -40px;
+        text-align: justify;
+        padding: 30px;
+    }
+    .modal-form{
+        margin-top: -30px;
+    }
+    .modal-input{
+        width: 340px;
+        margin-left: 30px;
+    }
+    .subBtn{
+        background-color:  #ff8000;
+        color: #ffff;
+        border: none;
+    }
+    .closeBtn{
+        color: #ffff;
+        float: right;
+        font-size: 30px;
+    }
+    .closeBtn:hover, .closeBtn:focus{
+        color: #000000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+
+
+
+@media screen and (min-width: 960px){
+    .section1{
+        width: 100%;
+        height: 700px;
+        background-image: url(./assets/work-desk__dustin-lee.jpg);
+    }
+    .notification{
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        height: 130px;
+        background-color:  #e5e5e5;
+        margin-top: -15px;
+        
+    }
+    .policy{
+        padding:30px;
+        width: 590px;
+        margin-left: 350px;
+    }
+    .slide{
+        animation: slide 1s ease-in-out;
+    }
+    a{
+        color: #007bc1;
+    }
+    .btn1{
+        position: absolute;
+        margin-left: 980px;
+        height: 30px;
+        top: 35px;
+        background-color: #007bc1;
+        color: #ffff;
+    }
+    .logo{
+        width: 50px;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .headline{
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 70px;
+        color: #ffff;
+    }
+    .consult{
+        padding: 20px;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: -58px;
+        color: #ffff;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .contact{
+        width: 397px;
+        padding: 10px;
+        font-size: 17px;
+        text-align:center;
+        margin-left: 480px;
+        margin-top: -45px;
+        color: #ffff;
+    }
+    .btn2{
+        margin-left: 600px;
+        height: 50px;
+        border: 15px solid #007bc1;
+        outline: 2px solid #ffff;
+        outline-offset: -10px;
+        background-color: #007bc1;
+        color: #ffff;
+    }
+    .section2{
+        background-color: #e5e5e5;
+        margin-top: -20px;
+        width: 100%;
+        height: 850px;
+    }
+    .section2-header{
+        padding: 45px;
+        text-align: center;
+    }
+    .work-target{
+        width:39%;
+        padding:35px;
+        margin-top: -90px;
+        text-align: center;
+        margin-left: 370px;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+    .flex-item{
+        margin-top: 20px;
+        padding: 30px;
+        margin-left: 15px;
+        width: 25%;
+        height: 200px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.1), 0 7px 20px 0 rgba(0,0,0,0.1);
+        border: 2px solid lightgray;
+        
+    }
+    .consult-text{
+        margin-top: 10px;
+        margin-left: 17px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-comments{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 270px;
+        margin-top: -35px;
+    }
+    .co-create{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .design-text{
+        margin-top: 15px;
+        margin-left: 15px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-paintbrush{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 275px;
+        margin-top: -35px;
+    }
+    .policymaker{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .develop-text{
+        margin-top: 15px;
+        margin-left: 15px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-layer-group{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 275px;
+        margin-top: -35px;
+    }
+    .revolutionary{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .marketing-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-bullhorn{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .peaceful{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .manage-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-list-check{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .change-makers{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .evolve-text{
+        margin-top: 15px;
+        margin-left: 20px;
+        opacity: 0.7;
+        color:#000000;
+    }
+    .fa-chart-column{
+        position: absolute;
+        opacity:0.3;
+        margin-left: 240px;
+        margin-top: -35px;
+    }
+    .activate{
+        opacity: 0.9;
+        padding: 5px;
+        margin-top: -10px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .section3{
+        background-color: #050A30;
+        height: 100px;
+        width: 100%;
+    }
+    .fa-copyright{
+        margin-left: 400px;
+        margin-top: 45px;
+        color: #ffff;
+        opacity: 0.3;
+    }
+    .copyright{
+        position: absolute;
+        color: #ffff;
+        padding: 20px;
+        margin-left: 495px;
+    }
+    .modal{
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        bottom: 0;
+        overflow: auto;
+        background-color: rgba(13, 152, 233, 0.5);
+        animation: slide_up 1.4s forwards;
+    }
+    .modal::backdrop {
+        opacity: 0;
+    }
+    .modal[open]{
+        animation: slide_up 1.4s forwards;
+    }
+    .modal[open]::backdrop{
+        animation: slide_up 1.4s forwards;
+        opacity: 1;
+    }
+    .modal[closing]{
+        display: block;
+        animation: slide_down 1.4s forwards; 
+    }
+    .modal[closing]::backdrop{
+        animation: slide_down 1.4s forwards; 
+    }
+    .modal-content{
+        color: #ffff;
+        margin:  auto;
+        padding: 20px;
+        width: 500px;
+        box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+    }
+    .modal-title{
+        margin-left: 27px;
+    }
+    .articles{
+        margin-top: -40px;
+        text-align: justify;
+        padding: 30px;
+    }
+    .modal-form{
+        margin-top: -30px;
+    }
+    .modal-input{
+        width: 340px;
+        margin-left: 30px;
+    }
+    .subBtn{
+        background-color:  #ff8000;
+        color: #ffff;
+        border: none;
+    }
+    .closeBtn{
+        color: #ffff;
+        float: right;
+        font-size: 30px;
+    }
+    .closeBtn:hover, .closeBtn:focus{
+        color: #000000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+@keyframes slide{
+    0%{
+        height: 80px;
+        transform: scale(1);
+    }
+    100%{
+        height: 0px;
+        transform: scale(0); 
+    }
+}
+
+@keyframes slide_up{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+@keyframes slide_down{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
