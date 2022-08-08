@@ -6,7 +6,7 @@
     }
     .notification{
         position: fixed;
-        width: available;
+        width: 100%;
         z-index: 1;
         height: 150px;
         background-color:  #e5e5e5;
